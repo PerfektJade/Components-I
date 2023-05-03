@@ -90,6 +90,18 @@ const data = [
   }
 ];
 
+function menuMaker(linksArray) {
+  const menuWrapper = document.createElement('div');
+  const menuList = document.createElement('ul');
+
+  menuWrapper.appendChild(menuList);
+
+  linksArray.forEach(link => {
+    const link = document.createElement('li');
+    linkText.
+  })
+}
+
 /*
   Step 1: Write a component called 'articleMaker' to create an article.
   Your component is a function that takes an article object as its only argument,
